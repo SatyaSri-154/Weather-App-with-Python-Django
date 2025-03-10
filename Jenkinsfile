@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'weather-app'
         IMAGE_TAG = 'latest'
-        REGISTRY_URL = 'dockerhub_username'  // Replace with your DockerHub username
+        REGISTRY_URL = 'lakshmisatya'  // Replace with your DockerHub username
         K8S_NAMESPACE = 'default'  // Modify according to your Kubernetes namespace
     }
 
